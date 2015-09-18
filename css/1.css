@@ -4,9 +4,9 @@
 }
 #c{
     width: 1440px;
-    height: 900px;
-    position: fixed;
-    background: lightskyblue;
+    /*height: 900px;*/
+    /*position: fixed;*/
+    /*background: lightskyblue;*/
 }
 #l{
     background: rgba(201, 255, 160, 0.69);
@@ -15,28 +15,40 @@
 }
 #t{
     background: #7b5580;
-    position: relative;
+    position: absolute;
+    top:0;
     left: 345px;
-    top: -900px;
     width: 750px;
     height: 110px;
+    font-size: 18px;
 }
 #r{
     background: rgba(255, 0, 0, 0.41);
-    position: relative;
+    position: absolute;
     left: 1095px;
-    top:-1010px;
+    top: 0;
     width: 345px;
     height: 900px;
-
 }
 #d{
-    position: fixed;
+    position: absolute;
     top: 110px;
     left: 345px;
     background: grey;
     width: 750px;
     height: 750px;
+}
+#b{
+    position: absolute;
+    top: 860px;
+    left: 345px;
+    width: 750px;
+    height: 40px;
+    background: lightskyblue;
+    text-align: center;
+}
+li{
+    text-indent: 20px;
 }
 #d1{
     background: powderblue;
@@ -68,7 +80,8 @@
     background: darkkhaki;
 }
 #d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9{
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
+    border: outset darkgrey 5px;
     float: left;
 }
